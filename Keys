@@ -1,0 +1,6 @@
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 3B1510FD
+wget -q https://dl-ssl.google.com/linux/linux_signing_key.pub -O- | sudo apt-key add -
+wget -q http://liveusb.info/multisystem/depot/multisystem.asc -O- | sudo apt-key add -
+sudo wget -O - http://deb.opera.com/archive.key | sudo apt-key add -
+wget -q http://download.virtualbox.org/virtualbox/debian/oracle_vbox.asc -O- | sudo apt-key add -
+ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys F9CB8DB0
